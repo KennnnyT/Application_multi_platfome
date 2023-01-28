@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "my_movie",
+    "slug": "my_movie",
+    "version": "1.0.0",
+    "sdkVersion": "47.0.12",
+    "orientation": "portrait",
+    "icon": "./assets/logo1.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.kennytsh.my_movie"
+    },
+    "web": {
+      "favicon": "./assets/log2.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "be624e35-2c83-4013-a808-188778b1141b"
+      }
+    }
+  }
+}
